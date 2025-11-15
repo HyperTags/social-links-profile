@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [frontend mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub pages](https://hypertags.github.io/social-links-profile/)
 
 ## My process
 
