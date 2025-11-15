@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="developer" content="HyperTags">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preload" href="./assets/fonts/static/Inter-Regular.ttf" as="font" type="font/ttf">
+  <link rel="preload" href="./assets/fonts/static/Inter-SemiBold.ttf" as="font" type="font/ttf">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: Inter-Regular;
+      src: url("./assets/fonts/static/Inter-Regular.ttf")format("truetype");
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: Inter-Semi-Bold;
+      src: url("./assets/fonts/static/Inter-SemiBold.ttf")format("truetype");
+      font-style: italic;
+      font-weight: 600;
+      font-display: swap;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      height: 100dvh;
+      display: grid;
+      place-items: center;
+      font-family: Inter-Regular;
+      font-size: 14px;
+    }
+
+    .container {
+      width: 300px;
+      height: auto;
+      background-color: hsl(0, 0%, 12%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      color: hsl(0, 0%, 100%);
+    }
+
+    .comment {
+      font-size: 12px;
+    }
+
+    .profile img {
+      width: 80px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .profile-info {
+      text-align: center;
+    }
+
+    .profile-info h1 {
+      font-family: Inter-Semi-Bold;
+      font-size: 24px;
+      margin-bottom: 0.3rem;
+    }
+
+    .profile-info p {
+      color: hsl(75, 94%, 57%);
+    }
+
+    .social-links {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      font-family: Inter-Semi-Bold;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(0, 0%, 20%);
+      padding: 10px 20px;
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .social-links a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="profile picture of Jessica Randall">
+      <div class="profile-info">
+        <h1>Jessica Randall</h1>
+        <p>London, United Kingdom</p>
+      </div>
+      <p class="comment">"Front-end developer and avid reader."</p>
+    </div>
+
+    <div class="social-links">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Mentor</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</body>
+
+</html>
