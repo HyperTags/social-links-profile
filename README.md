@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontend mentor](https://your-solution-url.com)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/social-links-profile-ZCUws8FlhQ)
 - Live Site URL: [GitHub pages](https://hypertags.github.io/social-links-profile/)
 
 ## My process
